@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    
+    <!-- SEO Meta Tags -->
+    <title>SLV Marine Exports | Premium Seafood Supplier Across India & Nepal</title>
+    <meta name="description" content="SLV Marine Exports is a leading exporter of premium quality frozen seafood in India, supplying fresh fish, shrimp, crabs, and squid across India and Nepal." />
+    <meta name="keywords" content="seafood export, marine exports, frozen seafood, shrimp export, prawn supplier, Andhra Pradesh seafood, Nepal seafood import" />
+    <link rel="canonical" href="https://slvmarineexports.com/" />
+    
+    <!-- Open Graph / Social Media -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://slvmarineexports.com/" />
+    <meta property="og:title" content="SLV Marine Exports | Premium Seafood Supplier" />
+    <meta property="og:description" content="Delivering ocean-fresh frozen seafood across India & Nepal with uncompromised cold-chain quality." />
+    <meta property="og:image" content="https://slvmarineexports.com/favicon.png" />
+    <meta property="og:site_name" content="SLV Marine Exports" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="SLV Marine Exports | Premium Seafood Supplier" />
+    <meta name="twitter:description" content="Delivering ocean-fresh frozen seafood across India & Nepal with uncompromised cold-chain quality." />
+    <meta name="twitter:image" content="https://slvmarineexports.com/favicon.png" />
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "SLV Marine Exports",
+        "url": "https://slvmarineexports.com",
+        "logo": "https://slvmarineexports.com/favicon.png",
+        "description": "Leading exporter of premium quality frozen seafood in India and Nepal.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Kodavalur, Gandavaram",
+          "addressLocality": "Nellore",
+          "addressRegion": "Andhra Pradesh",
+          "postalCode": "524366",
+          "addressCountry": "IN"
+        },
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "telephone": "+91-8977770455",
+          "contactType": "sales",
+          "areaServed": ["IN", "NP"],
+          "availableLanguage": ["English", "Telugu", "Hindi", "Nepali", "Tamil"]
+        }
+      }
+    </script>
+    
+    <!-- Anti-flash script for dark mode -->
+    <script>
+      try {
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+      } catch (_) {}
+    </script>
+    
+    <!-- PWA Manifest -->
+    <link rel="manifest" href="/manifest.json" />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Hide Google Translate native top bar and popups -->
+    <style>
+      .goog-te-[#0077B6]-frame,
+      .goog-te-banner-frame,
+      .goog-te-balloon-frame,
+      #goog-gt-tt,
+      .goog-te-spinner-pos {
+        display: none !important;
+      }
+      body {
+        top: 0px !important;
+        position: static !important;
+      }
+      .skiptranslate {
+        display: none !important;
+      }
+      #google_translate_element {
+        display: none !important;
+      }
+    </style>
+
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+          pageLanguage: 'en',
+          includedLanguages: 'en,te,hi,ne,ta',
+          layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+          autoDisplay: false
+        }, 'google_translate_element');
+      }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  </head>
+  <body>
+    <div id="google_translate_element"></div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

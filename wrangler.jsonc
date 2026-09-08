@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "slv-marine-exports",
+  "compatibility_date": "2025-01-01",
+  "assets": {
+    // Directory containing Vite production build output
+    "directory": "./dist",
+    // Ensures client-side routing (React Router SPA) fallback to index.html
+    "not_found_handling": "single-page-application"
+  }
+}
