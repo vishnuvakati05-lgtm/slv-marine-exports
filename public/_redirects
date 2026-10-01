@@ -1,6 +1,4 @@
----
 # fix: remove circular redirect rule
 # Replaced the redirect rule that caused a circular redirect on Cloudflare Pages.
 # Cloudflare Pages provides clean URLs for SPAs; this manual rule is not needed.
----
 
